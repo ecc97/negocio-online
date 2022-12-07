@@ -1,0 +1,72 @@
+header {
+    background-image: url(https://i.ibb.co/fpcT6wT/camisetas-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(90,90,90);
+    background-blend-mode: soft-light;
+    background-attachment: scroll;
+    background-position: center;
+    padding: 20px;
+    height: 500px;
+}
+div.container-fluid h1, div.container-fluid p{
+    text-align: center;
+}
+div.container-fluid img{
+    width: 100%;
+    max-width: 435px;
+    max-height: 250px;
+}
+section{
+    padding: 30px;
+}
+div.row img{
+    width: 100%;
+    max-width: 250px;
+    max-height: 200px;
+    cursor: pointer;
+}
+span#c1, #c2, #c3, #c4{
+    background-color: blueviolet;
+    display: none;
+    margin-bottom: 5px;
+}
+.modal-body{
+    background-color: white;
+}
+tr.detalles {
+    background-color: white;
+    color: black;
+}
+tr.detalles:hover {
+    background-color: white !important;
+    color: black !important;
+}
+button{
+    width: 100%;
+}
+section.work{
+    background-image: url(https://i.ibb.co/Jmhg457/camisetas-fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(50,50,50);
+    background-blend-mode: soft-light;
+    background-attachment: scroll;
+    background-position: center;
+}
+section.work  h1{
+    text-align: center;
+}
+footer {
+    background: #0A0C2D;
+    height: 50px;
+}
+footer div.pie {
+    margin: 0px auto;
+    padding: 5px;
+}
+footer div.pie h4 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
